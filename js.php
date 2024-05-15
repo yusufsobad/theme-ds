@@ -27,6 +27,7 @@ class theme_js
         $css = array(
             'accordion_js'          => $loc . 'js/accordion.js',
             'image_round_tooltip'   => $loc . 'js/image_round_tooltip.js',
+            'clock_realtime'   => $loc . 'js/clock_realtime.js',
         );
 
         $check = array_filter($idx);
