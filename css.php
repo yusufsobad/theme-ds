@@ -16,7 +16,7 @@ class theme_css
 
 	private function lokasi()
 	{
-		return SITE . '://' . HOSTNAME . '/' . URL . '/theme/dashboard/asset/';
+		return SITE . '://' . HOSTNAME . '/' . URL . '/theme/digital-signage/asset/';
 	}
 
 
