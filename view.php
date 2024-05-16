@@ -38,18 +38,10 @@ class dashboard_layout extends dashboard_template
 		<div class="wrapper">
 			<?= self::sobad_grid($data); ?>
 		</div>
-	<?php
+		<div id="here_content" class="containt">
+			<?= parent::_modal_form(2); ?>
+		</div>
+<?php
 
-	}
-
-	public static function style_dashboard()
-	{
-	?>
-		<style>
-			body {
-				background-color: red;
-			}
-		</style>
-<?Php
 	}
 }
