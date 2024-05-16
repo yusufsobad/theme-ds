@@ -129,7 +129,7 @@ th {
 } */
 
 /* CARD ACCORDION  */
-.card-header {
+.icon-toggle {
   cursor: pointer;
 }
 
@@ -394,4 +394,31 @@ span.badge.badge-success,
   background: #8023b4;
   color: #fff;
   border-radius: 9px;
+}
+
+.bootstrap-select > .btn {
+  width: 100%;
+  padding-right: 25px;
+  background-color: #009ef7;
+  color: #fff;
+}
+
+span.filter-option.pull-left {
+  width: 100%;
+  background-color: #009ef7;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+.btn-group.bootstrap-select.show-tick.form-control.bs-select {
+  background-color: #009ef7;
+  width: 100%;
+}
+
+.btn-group.bootstrap-select.show-tick.form-control.bs-select {
+  background-color: #009ef7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }

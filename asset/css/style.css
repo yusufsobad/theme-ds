@@ -573,3 +573,8 @@ body {
   width: 1px; /* Lebar garis */
   background-color: #cfcfcf; /* Warna garis */
 }
+
+.vertical-line-orange {
+  width: 1px; /* Lebar garis */
+  background-color: #ec7a00; /* Warna garis */
+}

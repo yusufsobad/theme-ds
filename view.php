@@ -33,14 +33,18 @@ class dashboard_layout extends dashboard_template
 
 	public static function load_here($data = [])
 	{
-		self::_clearfix();
+
 	?>
 		<div class="wrapper">
-			<?= self::sobad_grid($data); ?>
+			<div id="here_content" class="containt">
+				<?= parent::_modal_form(2); ?>
+				<?= self::sobad_grid($data); ?>
+				<?= self::_clearfix(); ?>
+			</div>
+
+
 		</div>
-		<div id="here_content" class="containt">
-			<?= parent::_modal_form(2); ?>
-		</div>
+
 <?php
 
 	}
