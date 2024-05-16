@@ -73,7 +73,8 @@ th {
 
 .table-scrolling > tbody {
   display: block !important;
-  max-height: 188px !important;
+  max-height: 292px !important;
+  min-height: 292px !important;
   overflow-y: auto !important;
   width: 100% !important;
   table-layout: fixed !important;
