@@ -8,7 +8,6 @@ body {
 }
 
 .wrapper {
-  width: 1080px;
   height: 1920px;
   margin: 0 auto; /* Mengatur posisi halaman di tengah */
   background-color: #f5f8f8;
